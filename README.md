@@ -1,5 +1,7 @@
 # karma-webpack-example
 
+Karma + Webpack + Mocha + Chai + Istanbul
+
 ##Installation
 
 ```npm install```
