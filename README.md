@@ -32,3 +32,10 @@ PhantomJS 1.9.8 (your OS): Executed 2 of 2 SUCCESS (0.005 secs / 0 secs)
 TOTAL: 2 SUCCESS
 
 ```
+
+## Gulp
+
+added usage in a gulp scenario
+
+try it via "npm run test-gulp" or simply "gulp" in the
+projects directory if you have gulp installed globally
