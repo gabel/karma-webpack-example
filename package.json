@@ -4,7 +4,8 @@
   "description": "Karma + Webpack + Mocha + Chai + Istanbul",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
+    "test": "node ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "test-gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,8 @@
     "webpack",
     "mocha",
     "chai",
-    "istanbul"
+    "istanbul",
+    "gulp"
   ],
   "author": "gabel",
   "license": "MIT",
@@ -26,6 +28,7 @@
   "devDependencies": {
     "bundle-loader": "^0.5.2",
     "chai": "^2.2.0",
+    "gulp": "^3.8.11",
     "istanbul": "^0.3.13",
     "istanbul-instrumenter-loader": "^0.1.2",
     "karma-coverage": "^0.2.7",
