@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gabel/karma-webpack-example.svg?branch=master)](https://travis-ci.org/gabel/karma-webpack-example)
+
 # karma-webpack-example
 
 Karma + Webpack + Mocha + Chai + Istanbul
