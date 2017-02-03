@@ -19,28 +19,13 @@ Remove --single-run to keep karma running. It will watch any changes on the test
 Output
 
 ```
-npm test
+$ npm test
 
 > karma-webpack-example@1.0.0 test /Users/d060690/karma-webpack-example
 > node ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS
 
-Hash: 0ccf6e18f9ce63e40540
-Version: webpack 1.14.0
-Time: 302ms
-       Asset    Size  Chunks             Chunk Names
-test/test.js  173 kB       0  [emitted]  test/test.js
-chunk    {0} test/test.js (test/test.js) 165 kB [rendered]
-    [0] ./test/test.js 99 bytes {0} [built]
-    [1] ./test _test$ 197 bytes {0} [built]
-    [2] ./test/Example/hexColorLuminance_test.js 597 bytes {0} [optional] [built]
-    [3] ./~/chai/chai.js 159 kB {0} [built]
-    [4] ./src/Example/hexColorLuminance.js 5.08 kB {0} [built]
-    [5] (webpack)/buildin/amd-options.js 43 bytes {0} [built]
+# ...
 
-WARNING in ./~/chai/chai.js
-Critical dependencies:
-1:477-484 This seems to be a pre-built javascript file. Though this is possible, it's not recommended. Try to require the original source to get better results.
- @ ./~/chai/chai.js 1:477-484
 03 02 2017 08:31:17.038:INFO [karma]: Karma v1.4.1 server started at http://0.0.0.0:9876/
 03 02 2017 08:31:17.044:INFO [launcher]: Launching browser PhantomJS with unlimited concurrency
 03 02 2017 08:31:17.067:INFO [launcher]: Starting browser PhantomJS
