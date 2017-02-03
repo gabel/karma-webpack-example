@@ -21,8 +21,13 @@ module.exports = function(config) {
     reporters: ['spec', 'coverage'],
 
     coverageReporter: {
-      type: 'html',
-      dir: 'build/coverage/'
+
+      dir: 'build/coverage/',
+      reporters: [
+          { type: 'html' },
+          { type: 'text' },
+          { type: 'text-summary' }
+      ]
     },
 
     webpack: {
