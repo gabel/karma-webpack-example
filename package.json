@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/gabel/karma-webpack-example",
   "devDependencies": {
-    "1.1.1": "^1.0.0",
     "bundle-loader": "^0.5.2",
     "chai": "^3.5.0",
     "gulp": "^3.8.11",
