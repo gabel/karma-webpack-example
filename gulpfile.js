@@ -1,6 +1,8 @@
 var gulp = require('gulp');
 var karma = require('karma').server;
 
+
+var test="test"
 gulp.task("default", ["test-watch"]);
 
 /* TEST SETUP */
