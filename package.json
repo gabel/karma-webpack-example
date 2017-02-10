@@ -1,6 +1,6 @@
 {
   "name": "karma-webpack-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Karma + Webpack + Mocha + Chai + Istanbul",
   "main": "index.js",
   "scripts": {
