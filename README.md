@@ -4,17 +4,17 @@
 
 Karma + Webpack + Mocha + Chai + Istanbul
 
-##Installation
+## Installation
 
 ```npm install```
 
 ## Run
 
 ```
-npm run test
+npm test
 ```
 
-Remove --single-run to keep karma running. It will watch any changes on the test files and rerun instantly.
+Use `npm test -- --no-single-run` to keep karma running. It will watch any changes on the test files and rerun instantly.
 
 Output
 
