@@ -4,6 +4,8 @@
 
 Karma + Webpack + Mocha + Chai + Istanbul
 
+**Hint:** This example still shows a valid approach but getting outdated. Please have a look at https://jestjs.io/ a testing framework including istanbul coverage reporter.
+
 ## Installation
 
 ```npm install```
